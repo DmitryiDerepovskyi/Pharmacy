@@ -1,0 +1,12 @@
+C:\Users\danilpavlov\Documents\Visual Studio 2013\Projects\Pharmacy\App\Pharmacy.BusinesLogic\bin\Debug\Pharmacy.BusinesLogic.dll
+C:\Users\danilpavlov\Documents\Visual Studio 2013\Projects\Pharmacy\App\Pharmacy.BusinesLogic\bin\Debug\Pharmacy.BusinesLogic.pdb
+C:\Users\danilpavlov\Documents\Visual Studio 2013\Projects\Pharmacy\App\Pharmacy.BusinesLogic\obj\Debug\Pharmacy.BusinesLogic.csprojResolveAssemblyReference.cache
+C:\Users\danilpavlov\Documents\Visual Studio 2013\Projects\Pharmacy\App\Pharmacy.BusinesLogic\obj\Debug\Pharmacy.BusinesLogic.dll
+C:\Users\danilpavlov\Documents\Visual Studio 2013\Projects\Pharmacy\App\Pharmacy.BusinesLogic\obj\Debug\Pharmacy.BusinesLogic.pdb
+C:\Users\danilpavlov\documents\visual studio 2013\Projects\Pharmacy\App\Pharmacy.BusinesLogic\bin\Debug\Pharmacy.BusinesLogic.dll.config
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.BusinesLogic\bin\Debug\Pharmacy.BusinesLogic.dll.config
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.BusinesLogic\bin\Debug\Pharmacy.BusinesLogic.dll
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.BusinesLogic\bin\Debug\Pharmacy.BusinesLogic.pdb
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.BusinesLogic\obj\Debug\Pharmacy.BusinesLogic.csprojResolveAssemblyReference.cache
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.BusinesLogic\obj\Debug\Pharmacy.BusinesLogic.dll
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.BusinesLogic\obj\Debug\Pharmacy.BusinesLogic.pdb

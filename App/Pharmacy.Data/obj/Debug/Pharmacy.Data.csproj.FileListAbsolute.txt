@@ -1,0 +1,48 @@
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Data.dll.config
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Data.dll
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Data.pdb
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.dll
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Contracts.dll
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Core.dll
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Contracts.pdb
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Core.pdb
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.xml
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.csprojResolveAssemblyReference.cache
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.dll
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.pdb
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.Migrations.Initial.resources
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.csproj.GenerateResource.Cache
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Data.dll.config
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Data.dll
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Data.pdb
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.dll
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Contracts.dll
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Core.dll
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Contracts.pdb
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Core.pdb
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.xml
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.csprojResolveAssemblyReference.cache
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.Migrations.Initial.resources
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.csproj.GenerateResource.Cache
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.dll
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.pdb
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Data.dll.config
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Data.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Data.pdb
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Contracts.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Core.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Contracts.pdb
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\Pharmacy.Core.pdb
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.xml
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.csprojResolveAssemblyReference.cache
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.Migrations.Initial.resources
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.csproj.GenerateResource.Cache
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.pdb

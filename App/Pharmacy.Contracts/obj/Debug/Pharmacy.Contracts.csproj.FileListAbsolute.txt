@@ -1,0 +1,29 @@
+C:\Users\danilpavlov\Documents\Visual Studio 2013\Projects\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.dll
+C:\Users\danilpavlov\Documents\Visual Studio 2013\Projects\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.pdb
+C:\Users\danilpavlov\Documents\Visual Studio 2013\Projects\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.dll
+C:\Users\danilpavlov\Documents\Visual Studio 2013\Projects\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.pdb
+C:\Users\danilpavlov\documents\visual studio 2013\Projects\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.dll.config
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.dll.config
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.dll
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.pdb
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.dll
+C:\Users\NET\Documents\Visual Studio 2012\Projects\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.pdb
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.dll.config
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.dll
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.pdb
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.dll
+C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.pdb
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.dll.config
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.pdb
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.pdb
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
