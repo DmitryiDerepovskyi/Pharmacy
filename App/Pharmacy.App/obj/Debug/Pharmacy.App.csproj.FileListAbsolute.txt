@@ -62,7 +62,7 @@ C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.App\bin\Debug\EntityFramework.xml
 C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.App\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.Contracts.pdb
 C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.App\obj\Debug\Pharmacy.App.csprojResolveAssemblyReference.cache
-C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.BusinesLogic.dll
 C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.App\bin\Debug\Microsoft.Practices.Unity.dll
-C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.BusinesLogic.pdb
 C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.App\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.BusinessLogic.dll
+C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.BusinessLogic.pdb

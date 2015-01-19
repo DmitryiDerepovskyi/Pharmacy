@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.Practices.Unity;
-using Pharmacy.BusinesLogic.IoC;
+using Pharmacy.BusinessLogic.IoC;
 using Pharmacy.Contracts;
 using Pharmacy.Contracts.BusinessLogic;
 
@@ -34,9 +34,9 @@ namespace Pharmacy.BusinesLogic.Validators
             return validity;
         }
 
-        public bool IsExist(Core.Pharmacy entity)
+        public bool IsExists(object key)
         {
-            return _repository.GetByPrimaryKey(entity.Id) != null;
+            return _repository.GetByPrimaryKey(key) != null;
         }
     }
 }

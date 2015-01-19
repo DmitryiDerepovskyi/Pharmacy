@@ -19,7 +19,6 @@ namespace Pharmacy.Data
             : base("Pharmacy")
         {
             Configuration.LazyLoadingEnabled = true;
-            Database.SetInitializer(new PharmacyInitializer());
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -31,33 +30,6 @@ namespace Pharmacy.Data
         {
             protected override void Seed(DataContext context)
             {
-                var pharmacies = new List<Core.Pharmacy>
-                {
-                    new Core.Pharmacy()
-                    {
-                        Address = "Kharkiv",
-                        Number = 1,
-                        PhoneNumber = "050 000 00 00",
-                        OpenDate = DateTime.Now.AddDays(-5),
-                    },
-                    new Core.Pharmacy()
-                    {
-                        Address = "Kiev",
-                        Number = 2,
-                        PhoneNumber = "095 000 00 00",
-                        OpenDate = DateTime.Now.AddDays(-10),
-                    },
-                    new Core.Pharmacy()
-                    {
-                        Address = "Odessa",
-                        Number = 3,
-                        PhoneNumber = "099 000 00 00",
-                        OpenDate = DateTime.Now.AddDays(-15),
-                    }
-                };
-                foreach (var pharmacy in pharmacies)
-                    context.Pharmacies.Add(pharmacy);
-                context.SaveChanges();
 
                 var medcines = new List<Medcine>
                 {

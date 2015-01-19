@@ -18,7 +18,6 @@ C:\Users\Dmitry\Desktop\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contr
 C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.dll.config
 C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.dll
 C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.pdb
-C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.csprojResolveAssemblyReference.cache
 C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.dll
 C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.pdb
 C:\Users\Deamon\Desktop\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.dll

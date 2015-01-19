@@ -1,18 +1,28 @@
-﻿using Pharmacy.Contracts.BusinessLogic;
+﻿using System;
+using System.Text.RegularExpressions;
+using Pharmacy.Contracts;
+using Pharmacy.Contracts.BusinessLogic;
 using Pharmacy.Core;
 
-namespace Pharmacy.BusinesLogic.Validators
+namespace Pharmacy.BusinessLogic.Validators
 {
     public class MedcineValidator : IValidator<Medcine>
     {
-        public bool IsValid(Medcine entity)
-        {
-            throw new System.NotImplementedException();
+        private readonly IRepository<Medcine> _repository; 
+
+        public MedcineValidator(IRepository<Medcine> repository) {
+            _repository = repository;
         }
 
-        public bool IsExist(Medcine entity)
+        public bool IsValid(Medcine entity) {
+            return !String.IsNullOrEmpty(entity.Name)
+                && Regex.IsMatch(entity.SerialNumber, @"...-...-..")
+                && entity.Price > 0;
+        }
+
+        public bool IsExists(object key)
         {
-            throw new System.NotImplementedException();
+            return _repository.GetByPrimaryKey(key) != null;
         }
     }
 }

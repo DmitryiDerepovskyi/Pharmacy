@@ -1,18 +1,40 @@
-﻿using Pharmacy.Contracts.BusinessLogic;
+﻿using System.Linq;
+using Pharmacy.Contracts;
+using Pharmacy.Contracts.BusinessLogic;
 using Pharmacy.Core;
 
-namespace Pharmacy.BusinesLogic.Validators
+namespace Pharmacy.BusinessLogic.Validators
 {
     public class OrderDetailsValidator : IValidator<OrderDetails>
     {
-        public bool IsValid(OrderDetails entity)
+        private readonly IRepository<OrderDetails> _repository;
+        private readonly IValidator<Order> _orderValidator;
+        private readonly IValidator<Medcine> _medcineValidator;
+
+        public OrderDetailsValidator(IRepository<OrderDetails> repository,
+            IValidator<Order> orderValidator,
+            IValidator<Medcine> medcineValidator)
         {
-            throw new System.NotImplementedException();
+            _repository = repository;
+            _orderValidator = orderValidator;
+            _medcineValidator = medcineValidator;
         }
 
-        public bool IsExist(OrderDetails entity)
+        public bool IsValid(OrderDetails entity)
         {
-            throw new System.NotImplementedException();
+            return _orderValidator.IsExists(entity.OrderId)
+                   && _medcineValidator.IsExists(entity.MedcineId)
+                   && entity.MedcineId == entity.Medcine.Id
+                   && entity.OrderId == entity.Order.Id
+                   && entity.UnitPrice > 0
+                   && entity.Count > 0;
+        }
+        public bool IsExists(object key)
+        {
+            var entity = key as OrderDetails;
+            if (entity == null)
+                return false;
+            return _repository.Find(od => (od.MedcineId == entity.MedcineId && od.OrderId == entity.OrderId)).Count<OrderDetails>() == 1;
         }
     }
 }

@@ -1,11 +1,12 @@
 ﻿using Microsoft.Practices.Unity;
 using Pharmacy.BusinesLogic.Validators;
+using Pharmacy.BusinessLogic.Validators;
 using Pharmacy.Contracts;
 using Pharmacy.Contracts.BusinessLogic;
 using Pharmacy.Data;
 using Pharmacy.Core;
 
-namespace Pharmacy.BusinesLogic.IoC
+namespace Pharmacy.BusinessLogic.IoC
 {
     public static class Container
     {

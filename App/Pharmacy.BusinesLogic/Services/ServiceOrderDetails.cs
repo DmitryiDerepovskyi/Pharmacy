@@ -3,21 +3,22 @@ using Microsoft.Practices.Unity;
 using Pharmacy.BusinessLogic.IoC;
 using Pharmacy.Contracts;
 using Pharmacy.Contracts.BusinessLogic;
+using Pharmacy.Core;
 
 namespace Pharmacy.BusinessLogic.Services
 {
-    public class ServicePharmacy : IService<Core.Pharmacy>
+    public class ServiceOrderDetails : IService<OrderDetails>
     {
-        private readonly IRepository<Core.Pharmacy> _repository;
-        private readonly IValidator<Core.Pharmacy> _validator;
+        private readonly IRepository<OrderDetails> _repository;
+        private readonly IValidator<OrderDetails> _validator;
 
-        public ServicePharmacy()
+        public ServiceOrderDetails()
         {
-            _validator = Container.UnityContainer.Resolve<IValidator<Core.Pharmacy>>();
-            _repository = Container.UnityContainer.Resolve<IRepository<Core.Pharmacy>>();
+            _validator = Container.UnityContainer.Resolve<IValidator<OrderDetails>>();
+            _repository = Container.UnityContainer.Resolve<IRepository<OrderDetails>>();
         }
 
-        public void Add(Core.Pharmacy entity)
+        public void Add(OrderDetails entity)
         {
             if (_validator.IsValid(entity))
             {
@@ -26,7 +27,7 @@ namespace Pharmacy.BusinessLogic.Services
             }
         }
 
-        public void Remove(Core.Pharmacy entity)
+        public void Remove(OrderDetails entity)
         {
             if (_validator.IsExists(entity))
             {
@@ -35,7 +36,7 @@ namespace Pharmacy.BusinessLogic.Services
             }
         }
 
-        public void Update(Core.Pharmacy entity)
+        public void Update(OrderDetails entity)
         {
             if (_validator.IsExists(entity))
             {
@@ -43,14 +44,14 @@ namespace Pharmacy.BusinessLogic.Services
             }
         }
 
-        public IQueryable<Core.Pharmacy> GetAll()
+        public IQueryable<OrderDetails> GetAll()
         {
             return _repository.GetAll();
         }
 
-        public Core.Pharmacy GetByPrimaryKey(int key)
+        public OrderDetails GetByPrimaryKey(OrderDetails entity)
         {
-            return _repository.GetByPrimaryKey(key);
+            return _repository.Find(od => (od.MedcineId == entity.MedcineId && od.OrderId == entity.OrderId)).First<OrderDetails>();
         }
     }
 }

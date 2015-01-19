@@ -3,21 +3,22 @@ using Microsoft.Practices.Unity;
 using Pharmacy.BusinessLogic.IoC;
 using Pharmacy.Contracts;
 using Pharmacy.Contracts.BusinessLogic;
+using Pharmacy.Core;
 
 namespace Pharmacy.BusinessLogic.Services
 {
-    public class ServicePharmacy : IService<Core.Pharmacy>
+    public class ServiceMedcinePriceHistory : IService<MedcinePriceHistory>
     {
-        private readonly IRepository<Core.Pharmacy> _repository;
-        private readonly IValidator<Core.Pharmacy> _validator;
+        private readonly IRepository<MedcinePriceHistory> _repository;
+        private readonly IValidator<MedcinePriceHistory> _validator;
 
-        public ServicePharmacy()
+        public ServiceMedcinePriceHistory()
         {
-            _validator = Container.UnityContainer.Resolve<IValidator<Core.Pharmacy>>();
-            _repository = Container.UnityContainer.Resolve<IRepository<Core.Pharmacy>>();
+            _validator = Container.UnityContainer.Resolve<IValidator<MedcinePriceHistory>>();
+            _repository = Container.UnityContainer.Resolve<IRepository<MedcinePriceHistory>>();
         }
 
-        public void Add(Core.Pharmacy entity)
+        public void Add(MedcinePriceHistory entity)
         {
             if (_validator.IsValid(entity))
             {
@@ -26,7 +27,7 @@ namespace Pharmacy.BusinessLogic.Services
             }
         }
 
-        public void Remove(Core.Pharmacy entity)
+        public void Remove(MedcinePriceHistory entity)
         {
             if (_validator.IsExists(entity))
             {
@@ -35,7 +36,7 @@ namespace Pharmacy.BusinessLogic.Services
             }
         }
 
-        public void Update(Core.Pharmacy entity)
+        public void Update(MedcinePriceHistory entity)
         {
             if (_validator.IsExists(entity))
             {
@@ -43,12 +44,12 @@ namespace Pharmacy.BusinessLogic.Services
             }
         }
 
-        public IQueryable<Core.Pharmacy> GetAll()
+        public IQueryable<MedcinePriceHistory> GetAll()
         {
             return _repository.GetAll();
         }
 
-        public Core.Pharmacy GetByPrimaryKey(int key)
+        public MedcinePriceHistory GetByPrimaryKey(int key)
         {
             return _repository.GetByPrimaryKey(key);
         }

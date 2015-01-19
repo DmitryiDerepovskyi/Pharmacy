@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Pharmacy.BusinesLogic</RootNamespace>
-    <AssemblyName>Pharmacy.BusinesLogic</AssemblyName>
+    <AssemblyName>Pharmacy.BusinessLogic</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
@@ -59,6 +59,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IoC\Container.cs" />
+    <Compile Include="Services\ServiceMedcine.cs" />
+    <Compile Include="Services\ServiceStorage.cs" />
+    <Compile Include="Services\ServiceMedcinePriceHistory.cs" />
+    <Compile Include="Services\ServiceOrderDetails.cs" />
+    <Compile Include="Services\ServiceOrder.cs" />
     <Compile Include="Services\ServicePharmacy.cs" />
     <Compile Include="Validators\OrderValidator.cs" />
     <Compile Include="Validators\MedcineValidator.cs" />
@@ -67,7 +72,6 @@
     <Compile Include="Validators\StorageValidator.cs" />
     <Compile Include="Validators\MedcinePriceHistoryValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

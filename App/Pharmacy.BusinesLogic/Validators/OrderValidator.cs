@@ -1,18 +1,29 @@
 ﻿using Pharmacy.Contracts.BusinessLogic;
+using Pharmacy.Contracts;
 using Pharmacy.Core;
 
-namespace Pharmacy.BusinesLogic.Validators
+namespace Pharmacy.BusinessLogic.Validators
 {
     public class OrderValidator : IValidator<Order>
     {
-        public bool IsValid(Order entity)
+        private readonly IRepository<Order> _repository;
+        private readonly IValidator<Core.Pharmacy> _validator;
+
+        public OrderValidator(IRepository<Order> repository, IValidator<Core.Pharmacy> validator)
         {
-            throw new System.NotImplementedException();
+            _repository = repository;
+            _validator = validator;
         }
 
-        public bool IsExist(Order entity)
+        public bool IsValid(Order entity)
         {
-            throw new System.NotImplementedException();
+            return _validator.IsExists(entity.PharmacyId)
+                   && entity.PharmacyId == entity.Pharmacy.Id;
+        }
+
+        public bool IsExists(object key)
+        {
+            return _repository.GetByPrimaryKey(key) != null;
         }
     }
 }
